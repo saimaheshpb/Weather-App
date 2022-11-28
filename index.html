@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+
+<body id="bodyimg">
+
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search_bar" placeholder="Search">
+            <button>
+                <img src="./images/marker.svg" alt="">
+            </button>
+        </div>
+
+        <div class="weather">
+            <h2 class="city">Weather in Delhi</h2>
+            <h1 class="temp">32°C</h1>
+            <div class="flex">
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" class="icon" id="climateIcon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 34%</div>
+            <div class="wind">Wind Speed: 7 Kmph</div>
+        </div>
+    </div>
+
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+            <div class="icons">
+                <p class="weather" id="day1"></p>
+                <img alt="" id="img1">
+                <p class="minValues" id="day1Min">Min Temp</p>
+                <p class="maxValues" id="day1Max">Max Temp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <img alt="" id="img2">
+                <p class="minValues" id="day2Min">Min Temp</p>
+                <p class="maxValues" id="day2Max">Max Temp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day3"></p>
+                <img alt="" id="img3">
+                <p class="minValues" id="day3Min">Min Temp</p>
+                <p class="maxValues" id="day3Max">Max Temp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day4"></p>
+                <img alt="" id="img4">
+                <p class="minValues" id="day4Min">Min Temp</p>
+                <p class="maxValues" id="day4Max">Max Temp</p>
+            </div>
+            <div class="icons">
+                <p class="weather" id="day5"></p>
+                <img alt="" id="img5">
+                <p class="minValues" id="day5Min">Min Temp</p>
+                <p class="maxValues" id="day5Max">Max Temp</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="finalScript.js"></script>
+
+</body>
+
+</html>
